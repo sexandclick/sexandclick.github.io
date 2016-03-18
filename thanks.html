@@ -52,17 +52,34 @@
       .visible-xs {
         display: none;
       }
+      .bg-message {
+      	    padding-top: 60px;
+    	padding-bottom: 100px;
+      }
       .messsage-box {
       	margin: 0 auto;
       	width: 600px;
       }
       .message-header {
-      	background-color: #E1E5EA;
-      	padding: 12px 25px;
+      	background-color: #6c59b4;
+      	padding: 10px 25px;
       	text-align: center;
+      	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
       }
       .message-content {
       	padding: 25px;
+      	border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 8px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	border: 0px solid #000000;
+	min-height: 140px;
+      }
+      .message-content h1 {
+      	    font-size: 2.25rem;
+    	    font-weight: 600;
       }
       @media screen and (max-width: 768px) {
           .display-3 {
@@ -106,13 +123,13 @@
     
     <!-- Thanks Section
     ================================================== -->
-	<section class="bg-faded">
+	<section class="bg-faded bg-message">
 		<div class="container">
 			<div class="messsage-box" style="">
-				<div class="messsage-header">
-					<div class="logo-brand"></div>
+				<div class="message-header">
+					<div class="logo-brand" style="margin: 0 auto;"></div>
 				</div>
-				<div class="messsage-content">
+				<div class="message-content">
 					<h1>¡Mensaje enviado!</h1>
     					<p>En breve contestaremos a tu consulta, gracias por confiar en nosotros.</p>
 				</div>
