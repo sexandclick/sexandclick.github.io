@@ -151,6 +151,7 @@ img {
 	-ms-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
 	transition: all 0.2s ease;
+	background: linear-gradient(-180deg, #514F67 30%, #D081B3 48%, #6c7c95 65%, #6a7b95 58%, #414F61 86%, #20252D 100%);
 }
 
 #thumbnails figure img {
@@ -158,9 +159,9 @@ img {
 	background: #fff;
 	width: 100%;
 	height: auto;
-	-webkit-filter: grayscale(100%) contrast(180%) brightness(95%);
-            filter: grayscale(100%) contrast(180%) brightness(95%);
-    opacity: 0.8;
+	-webkit-filter: grayscale(20%) contrast(130%);
+    filter: grayscale(20%) contrast(130%);
+    mix-blend-mode: hard-light;
 }
 
 #thumbnails figure span {
